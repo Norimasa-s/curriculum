@@ -18,8 +18,8 @@ Linux…リーナス・トーバルズ氏によって開発された。現在ス
 
 ■ 言語・環境
 マークアップ／フロントエンド
-HTML
-CSS
+HTML…
+CSS…
 JavaScript
 jQuery
 Java SE
