@@ -1,13 +1,21 @@
 ■ IT
-IT
-ICT
-IoT
+IT…information technology 通信とコンピュータを駆使する情報技術。
+
+ICT…information and communication technology 通信技術を活用した、産業やサービスの総称。
+
+IoT…Internet of things（モノのインターネット）世の中に存在する様々な物体に通信機能を持たせ、自動で認識やコントロール、計測を行う。
+
 ■ OS
-OS
-Windows
-macOS (Mac OS X)
-UNIX
-Linux
+OS…operating system コンピュータ全体を制御してユーザーが使いやすくするためのシステム。
+
+Windows…マイクロソフトが提供しているOS。
+
+macOS (Mac OS X)…アップル社が提供するOS。Macシリーズのみに導入されている。
+
+UNIX…現存する中で最も古いOSの一つ。さまざまなOSの土台になった。特徴は安全性が高く、余計な機能がない。
+
+Linux…リーナス・トーバルズ氏によって開発された。現在スーパーコンピュータや組み込みシステム（携帯電話やテレビなど）などの様々なシステムで使われている。
+
 ■ 言語・環境
 マークアップ／フロントエンド
 HTML
@@ -23,10 +31,12 @@ Java EE（Jakarta EE）
 Perl
 PHP
 Ruby
+
 ■ サーバーソフト
 Apache
 nginx
 IIS
+
 ■ SQL
 SQL
 DB2
@@ -59,6 +69,7 @@ DBeaver
 MySQL Workbench
 Sequel Pro
 TeamSQL
+
 ■ 肩書
 PM
 PL
@@ -69,10 +80,12 @@ SE
 フロントエンド・エンジニア
 サーバーサイド・エンジニア
 バックエンド・エンジニア
+
 ■ UI（ユーザーインターフェース）
 UI
 CUI
 GUI
+
 ■ ファイル／ディレクトリ
 ファイル
 拡張子
@@ -82,11 +95,13 @@ GUI
 パス
 絶対パス
 相対パス
+
 ■ ネットワーク
 LAN
 WAN
 クライアント
 サーバー
+
 ■ 各種プロトコル
 HTTP
 FTP
@@ -97,30 +112,38 @@ SSH
 HTTP、FTP、SSHの各ポート番号
 ファイアウォール
 TCP
+
 ■ IPアドレス
 IPアドレス
 グローバルIPアドレス
 プライベートIPアドレス
+
 ■ ドメイン
 ドメイン
 DNS
 VPN
 ブリッジ
 プロキシサーバー
+
 ■ 電子メール
 SMTP
 POP
 IMAP
+
 ■ セッションとクッキー
 セッション
 クッキー
 キャッシュ
+
 ■ DB（データベース）について
 インデックス
+
 ■ テストについて
 フロー
+
 ■ チケット管理ツール
 タスク
+
 ■ バージョン管理
 Git
 SVN
