@@ -27,7 +27,7 @@ public class Task1_2 {
          */
          country[0] = "りんご";
          country[1] = "もも";
-         country[2] = "ぶどう"; 
+         country[2] = "ぶどう";
 
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
         System.out.println(country [1]);
