@@ -13,7 +13,7 @@ public class Task1_2 {
     public static void main(String[] args) {
  
         // ①「JAPAN」、「AMERICA」、「KOREA」を要素の値（初期値）とする配列 countryを作成しなさい。
-        String [] country = new String[3];
+        String country[] = {"JAPAN","AMERICA","KOREA"};
 
         // ② ①で作成した配列の要素数を出力してください。
 
@@ -27,7 +27,7 @@ public class Task1_2 {
          */
          country[0] = "りんご";
          country[1] = "もも";
-         country[2] = "ぶどう";
+         country[2] = "ぶどう"; 
 
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
         System.out.println(country [1]);
@@ -39,7 +39,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [1番目の要素と、4番目の要素を表示する指示。]
+        // [2番目の要素と、5番目の要素を表示する指示。]
         System.out.println(intArray[1] + intArray[4]);
 
     }
