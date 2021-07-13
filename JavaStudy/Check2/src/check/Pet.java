@@ -23,7 +23,7 @@ public class Pet {
         System.out.println("■ご主人様は" + masterName + "です");
     }
 }
-
+//親がthis、子がsuperを使う。
 class RobotPet extends Pet {
     public RobotPet(String name, String masterName) {
         super(name, masterName);
