@@ -22,9 +22,9 @@ public class Check {
 
 	public static void main(String[] args) {
 	System.out.println("printNameメソッド → " + printName(firstname,lastname));
+	
 	//課題③
 	//【Check.java】にてPetクラスとRobotPetクラスをインスタンス化して、下記の完成イメージを出力させなさい。
-
 		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA,  Constants.CHECK_CLASS_HOGE);
 		pet.introduce();
 
