@@ -27,13 +27,11 @@ public class Check {
 		//このインスタンスはPetクラスのコンストラクタへ
 		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA,  Constants.CHECK_CLASS_HOGE);
 		pet.introduce();
-		//インスタンス
-		// ① クラス名
-		// ② インスタンス名（変数名）
-		// ③ 「=」で結んで、new演算子
-		// ④ コンストラクタ名
+		// ① クラス名　 ② インスタンス名（変数名）③ 「=」new演算子　④ コンストラクタ名
+		
 		RobotPet robotPet = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
 		robotPet.introduce();
+
 	}
 		
 		

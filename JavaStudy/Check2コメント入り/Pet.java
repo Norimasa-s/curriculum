@@ -4,21 +4,23 @@ public class Pet {
 //フィールド
     private String name;
     private String masterName;
+    // privateはこのクラスだけアクセスできる。
     
 //コンストラクタ
     public Pet(String name, String masterName) {
         this.name = name;
         this.masterName = masterName;
+// 自クラスのインスタンスであることを明示するもの。
     }
 //外のフィールドからアクセスするためにgetメソッドを使っている。
     protected String getName() {
         return name;
     }
-// protectedはクラスと継承されたサブクラスのみで使われる。
+// protectedはメインクラスと継承されたサブクラスのみで使われる。
     protected String getMasterName() {
         return masterName;
     }
-
+// 戻り値(return)のない場合はvoidをつける。
     public void introduce() {
         System.out.println("■僕の名前は" + this.name + "です");
         System.out.println("■ご主人様は" + this.masterName + "です");
