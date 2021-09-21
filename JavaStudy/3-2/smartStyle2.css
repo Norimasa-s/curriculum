@@ -52,38 +52,26 @@
     
     
 }
-  
-
-
-
-
-
-
 
 @media screen and (max-width: 479px) {
     .clearfix::after { 
         content: '';
         display: block; 
         clear: both;
-    
     }
     .header{
         width :150px;
-        
-     
     }
      .main{
         width :150px;
-        
+     
     } 
     .left{
         width :150px;
         
     }
      .right{
-        width :150px;
-        
-        
+        width :150px
     } 
     
     .top{
@@ -92,32 +80,28 @@
     }
     .center-left{
         width: 150px;
-        
     }
+
     .center-top{
         width :150px;
-       
      
     }
     .center-bottom{
         width :150px;
-      
-    
     }
+
     .center-right{
         width :150px;
-        
     }
+
     .bottom{
         width :150px;
-        
+
     }
     
     .footer{
         width :150px;
 
     }
-    
-    
     
 }
