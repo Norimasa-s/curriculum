@@ -14,21 +14,22 @@
     height:40px;
     width:40px;
     background-color: #a9004b;
-    padding:10px 10px 10px 10px ;
+    margin:10px 5px 10px 10px ;
     float: left;
 }
 .box{
     background-color: #a9004b;
     height:40px;
     width:40px;
-    padding:10px 10px 10px 10px ;
+    margin:10px 5px 10px 5px ;
     float: left;
 }
 .box-right{
     background-color: #a9004b;
+
     height:40px;
     width:40px;
-    padding:10px 10px 10px 10px;
+    margin:10px 10px 10px 5px;
     float:left;
 }
 
@@ -55,7 +56,9 @@
     width:140px;
     background-color: #ff863f;
     float:left;
-    border :5px 5px 5px 5px; 
+    margin:40px 60px 5px 40px;
+    border: 5px solid #eee;
+
 }
 
 
@@ -64,6 +67,8 @@
     width:140px;
     background-color: #ff863f;
     float:left;
+    margin:5px 60px 5px 40px;
+    border: 5px solid #eee;
 }
 
 
@@ -73,12 +78,15 @@
     width:140px;
     background-color: #ff863f;
     float:left;
+    margin:5px 60px 40px 40px;
+    border: 5px solid #eee; 
 }
 
 .footer{
     background-color: #d98d30;
     height:100px;
     width:400px;
+     
 }
 
 
