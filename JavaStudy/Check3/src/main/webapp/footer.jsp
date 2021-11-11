@@ -9,5 +9,6 @@
 </head>
 <body>
 <div class ="footer">hoge.Inc</div>
+
 </body>
 </html>

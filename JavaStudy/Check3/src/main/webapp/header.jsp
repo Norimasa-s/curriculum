@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style">
 <title>Insert title here</title>
 </head>
 <body>
@@ -20,5 +20,5 @@
 
 </header>
 
-<!-- </body>
-</html> -->
+</body>
+</html>
