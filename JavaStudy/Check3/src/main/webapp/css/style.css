@@ -5,13 +5,16 @@
 	padding-bottom: 50px;
 }
 
-.header{
+.login{
 	background-color: gray;
 	display: inline-block;
 	padding: 10px;
 	color: white;
 	padding: 10px;
 	font-size: 10px;
+}
+.time{
+	float: left;
 }
 .footer{
 	background-color: gray;
