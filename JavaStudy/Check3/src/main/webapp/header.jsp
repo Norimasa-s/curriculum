@@ -5,19 +5,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="style">
+<!-- <link rel="stylesheet" href="css/style.css"> -->
 <title>Insert title here</title>
 </head>
 <body>
 <header>
-<div class="header">login</div>
-<div class="time">
+<div class="header">
+	<div class ="login">login</div>
+	<div class="time">
 <% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
    <%= formatDate %>
+	</div>
 </div>
-
 </header>
 
 </body>

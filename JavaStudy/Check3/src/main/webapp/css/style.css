@@ -1,26 +1,32 @@
 @charset "UTF-8";
 
-.jspTest{
-	padding-top: 50px;
-	padding-bottom: 50px;
+.header{
+	background-color: gray;
 }
 
 .login{
-	background-color: gray;
-	display: inline-block;
+	float:left;
 	padding: 10px;
 	color: white;
+	float:left;
+}
+.time{
 	padding: 10px;
 	font-size: 10px;
 }
-.time{
-	float: left;
+.nameid{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
 }
+
 .footer{
 	background-color: gray;
+}
+
+.footertext{
 	display: inline-block;
 	padding: 10px;
 	color: white;
-	
 }
 
