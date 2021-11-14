@@ -13,10 +13,10 @@
 <div class="header">
 	<div class ="login">login</div>
 	<div class="time">
-<% Date date = new Date();
+	<% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
-   <%= formatDate %>
+    <%= formatDate %>
 	</div>
 </div>
 </header>

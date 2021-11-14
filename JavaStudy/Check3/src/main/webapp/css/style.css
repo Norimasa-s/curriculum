@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
+
 .header{
 	background-color: gray;
 }
 
 .login{
-	float:left;
 	padding: 10px;
 	color: white;
-	float:left;
+	/* float:left; */
 }
 .time{
 	padding: 10px;
 	font-size: 10px;
 }
-.nameid{
+.name{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	
