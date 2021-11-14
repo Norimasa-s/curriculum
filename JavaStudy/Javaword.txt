@@ -101,9 +101,9 @@
 
 	・分散型…PC同士やサーバー同士をつなぐことができる。
 	
-	・Github
-Backlog
-SourceTree
+	・Github…世界中の人がデータを保存できるウェブサービス。
+
+	・Backlog…SVN（Subversion　オープンソースのバージョン管理システムの一つ）やGitを使ってソースコードを管理できる。
 Tortoise SVN
 Git Flow
 master
