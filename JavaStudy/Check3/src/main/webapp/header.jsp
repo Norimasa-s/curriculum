@@ -9,17 +9,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<header>
 <div class="header">
-	<div class ="login">login</div>
-	<div class="time">
+	<label id="login">login</label>
+	<label id="time">
 	<% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
     <%= formatDate %>
-	</div>
+	</label>
 </div>
-</header>
 
 </body>
 </html>
