@@ -18,6 +18,5 @@
     <%= formatDate %>
 	</label>
 </div>
-
 </body>
 </html>
