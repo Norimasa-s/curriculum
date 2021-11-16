@@ -5,13 +5,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!-- <link rel="stylesheet" href="css/style.css"> -->
+
 <title>Insert title here</title>
 </head>
 <body>
 <div class="header">
+<!-- labelタグはフォームの中でフォーム内と構成している物を紐づけているためのタグ -->
 	<label id="login">login</label>
 	<label id="time">
+	<!-- Javaで日時を表示している（SimpleDateFormatシンプルデータフォーマット） -->
 	<% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>

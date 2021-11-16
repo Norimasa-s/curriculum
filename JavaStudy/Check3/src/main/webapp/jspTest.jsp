@@ -1,3 +1,8 @@
+<!-- ↓ディグレクティブ ページの表示に関する設定をしている。
+languageはJSPで使用する言語の指定。
+contentTypeはJSPページのデータ型、文字コードの指定。
+pageEncodingはJSPページの文字コードの指定。
+-->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
    
@@ -9,23 +14,28 @@
 <title>Insert title here</title>
 </head>
 <body>
+<!-- <↓includeディレクティブはJSPファイルから他のJSPファイルを読み込む> -->
+<!-- この場合はheader.jspファイルを読み込んでいる -->
  <%@ include file="header.jsp"%>
 <!-- name、idの入力エリアを作成しなさい -->
 <div class ="name">
+<!-- テーブルタグで表を作っている -->
 <table class="name・idarea">
+<!-- <tr>が行で、<th>が項目-->
 	<tr>
+<!-- フォームの中でフォーム内と構成している物を紐づけているためのタグ -->
 		<th><label for="name1">name</label></th>
 		<th><input type="text" name="namae" id="name1"></th>
 	</tr>
-	<tr align="left">
 	
 	<tr>
 		<th><label for="id1">id</label></th>
 		<th><input type="text" name="id2" id="id1"></th>
 	</tr>
-	<tr align="left">
+	
 </table>
 </div>
  <%@ include file="footer.jsp"%>
+ <!-- footer.jspファイルを読み込んでいる -->
 </body>
 </html>
