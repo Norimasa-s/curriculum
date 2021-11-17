@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class ="footer">
-	<label Class ="footertext">hoge.Inc</label>
+	<div Class ="footertext">hoge.Inc</div>
 </div>
 </body>
 </html>
