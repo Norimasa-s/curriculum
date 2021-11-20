@@ -1,15 +1,18 @@
-<!-- ↓ディグレクティブ ページの表示に関する設定をしている。
-languageはJSPで使用する言語の指定。
-contentTypeはJSPページのデータ型、文字コードの指定。
-pageEncodingはJSPページの文字コードの指定。
--->
+<!-- JSPはWebサーバ上で動くJavaのプログラム。HTMLとJavaが合体したもの-->
+<!-- JavaのファイルをHTMLで出力するためにJSPを使う -->
+<!-- ↓ディグレクティブ ページの表示に関する設定をしている。-->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-   
+<!-- languageはJSPで使用する言語の指定。-->
+<!-- contentTypeはJSPページのデータ型、文字コードの指定。-->
+<!-- pageEncodingはJSPページの文字コードの指定。-->
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- CSSとリンクをしている -->
 <link rel="stylesheet" href="css/style.css">
 <title>Insert title here</title>
 </head>
