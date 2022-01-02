@@ -35,7 +35,7 @@ public class EmployeeService {
  
   // 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
  /** ・SQL SELECT文 */
- private static final String SQL_SELECT = "ここを改修";
+ private static final String SQL_SELECT = "SELECT * FROM employee_table";
  
  EmployeeBean employeeDate = null;
  
@@ -67,6 +67,8 @@ public class EmployeeService {
   // preparedStatementに実行したいSQLを格納
  preparedStatement = connection.prepareStatement(SQL_UPDATE);
   // 問④ preparedStatementを使って、一番目のindexに今の時間をセットしてください。2番目のindexにIDをセットしてください。
+ preparedStatement = connection.prepareStatement();
+ preparedStatement = connection.prepareStatement();
  
   // 問⑤ UPDATEを実行する文を記述
  
@@ -88,9 +90,9 @@ public class EmployeeService {
  
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
- employeeDate.setName("ここ改修");
- employeeDate.setComment("ここ改修");
- employeeDate.setLogin_Time("ここ改修");
+ employeeDate.setName("Name");
+ employeeDate.setComment("Comment");
+ employeeDate.setLogin_Time("Login_Time");
  }
  
   // forName()で例外発生
