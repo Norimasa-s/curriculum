@@ -16,7 +16,9 @@ import bean.EmployeeBean;
  */
  
 public class EmployeeService {
- 
+//主にここのクラスはデータベースのやりとりをしている。id 、passwordを参照してDBとのやりとりをする
+//login_timeで処理された時間を出力する処理もある
+
   // 問① 接続情報を記述してください
  /** ドライバーのクラス名 */
  private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
@@ -42,22 +44,30 @@ public class EmployeeService {
   // 送信されたIDとPassWordを元に社員情報を検索するためのメソッド
  public EmployeeBean search(String id, String password) {
  
- Connection connection = null;
+
+//connectionはデータベースにアクセスできるようにする物
+Connection connection = null;
+//statementは問い合わせして実行する
  Statement statement = null;
+//resultSetはSQLの実行結果を格納する
  ResultSet resultSet = null;
+ //preparedStatementはSQL文を生成する
  PreparedStatement preparedStatement = null;
- System.out.print(id);
- System.out.print(password);
+
  
  try {
   // データベースに接続
  Class.forName(POSTGRES_DRIVER);
+// ↑ドライバの設定
  connection = DriverManager.getConnection(JDBC_CONNECTION, USER, PASS);
+// ↑URLの設定
  statement = connection.createStatement();
  
   // 処理が流れた時間をフォーマットに合わせて生成
  Calendar cal = Calendar.getInstance();
+// カレンダークラス使う
  SimpleDateFormat sdFormat = new SimpleDateFormat(TIME_FORMAT);
+// SimpleDateFormatをインスタンス
  
   // PreparedStatementで使用するため、String型に変換
  String login_time = sdFormat.format(cal.getTime());
@@ -71,6 +81,8 @@ public class EmployeeService {
   // 問④ preparedStatementを使って、一番目のindexに今の時間をセットしてください。2番目のindexにIDをセットしてください。
  preparedStatement.setString(1,login_time);
  preparedStatement.setString(2,id);
+ //PreparedStatementはメソッドにSQL文の引数を指定して生成するもの
+ //”？”をもつSQL文を実行するやつ
  
   // 問⑤ UPDATEを実行する文を記述
  preparedStatement.executeUpdate();
@@ -83,15 +95,19 @@ public class EmployeeService {
  preparedStatement.setString(1,id);
  preparedStatement.setString(2,password);
  
+ 
   // SQLを実行。実行した結果をresultSetに格納。
+ //executeQueryでSQLをデータベースで実行。
  resultSet = preparedStatement.executeQuery();
  
+ 
+ //resultSetでインターフェイスの実行結果を格納する
  while (resultSet.next()) {
   // 問⑦ tmpName,tmpComment,tmpLoginTimeに適当な値を入れてください。
  String tmpName = resultSet.getString("name");
  String tmpComment = resultSet.getString("comment");
  String tmpLoginTime = resultSet.getString("login_time");
- 
+ //↓tmpは一時的にデータを格納する
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
  employeeDate.setName(tmpName);
@@ -126,5 +142,6 @@ public class EmployeeService {
  }
  }
  return employeeDate;
+// EmployeeControllerクラスのsearchメソッドへ
  }
 }

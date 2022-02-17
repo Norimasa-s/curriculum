@@ -3,6 +3,7 @@ package bean;
  * ・社員情報データ（モデル）
  */
 public class EmployeeBean {
+//EmployeeBeanクラスは主に格納する目的を持っている。
     private String Id;
     private String PassWord;
     private String Name;
