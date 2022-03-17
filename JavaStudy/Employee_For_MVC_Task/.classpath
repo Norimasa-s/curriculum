@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Employee_For_MVC_Task/MVC_Task/src"/>
+	<classpathentry kind="lib" path="__MACOSX/Employee_For_MVC_Task/MVC_Task/WebContent/WEB-INF/lib/._postgresql-42.2.5.jar"/>
+	<classpathentry kind="lib" path="Employee_For_MVC_Task/MVC_Task/WebContent/WEB-INF/lib/postgresql-42.2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
